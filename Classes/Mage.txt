@@ -1,0 +1,44 @@
+Mage
+	Weapons: Anima Tome
+	Skill -
+	Class Change Options:
+		Sage
+		Pact Acolyte
+
+Sage
+	Weapons: Anima Tome, Staff
+	Skill -
+	Upgrade Skill -
+	Class Change Options:
+		Archsage
+		Grandmaster
+Pact Acolyte
+	Weapons: Anima Tome, Knife
+	Skill -
+	Upgrade Skill -
+	Class Change Options:
+		Demonbound
+		Feybound
+
+Archsage
+	Weapons: Any Tome, Staff
+	Skill -
+	Upgrade Skill -
+	Capstone -
+Grandmaster
+	Weapons: Anima Tome, Staff, Sword
+	Skill -
+	Upgrade Skill -
+	Capstone -
+Demonbound
+	Weapons: Anima Tome, Knife, Dark Tome
+	Skill - When fighting and adjacent enemy, enemy AVO -25, enemy
+		crit dodge -30
+	Upgrade Skill -
+	Capstone - Alternate Attack: Consume 50% Current HP and add it to
+		damage (multiple hits makes you lose HP multiple times)
+Feybound
+	Weapons: Anima Tome, Knife, Light Tome
+	Skill -
+	Upgrade Skill -
+	Capstone -
