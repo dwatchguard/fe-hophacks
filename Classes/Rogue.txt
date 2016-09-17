@@ -1,4 +1,6 @@
 Rogue
+Theme:
+Knife weilding rogues who posses high speed, attack, and charisma. Good at dispatching single squishy units, but lack the defensive capapbilities to survive large skirmishes
 	Weapons: Knife
 	Skill - Pass (move through enemy units)
 	Class Change Options:
@@ -6,6 +8,8 @@ Rogue
 		Swashbuckler
 
 Assassin
+Theme:
+A rogue who has gained access to a bow. 
     Weapons: Knife, Bow
     Skill - Backstab extra damage if enemy is facing away
     Upgrade Skill - Pass go through an enemy, backstab on them does more
@@ -13,6 +17,7 @@ Assassin
         Whisper
         Kingslayer
 Swashbuckler
+Theme:
     Weapons: Knife, Sword
     Skill - Flanking if you and an ally are adj to enemy, extra damage
     Upgrade Skill - Pass go through an enemy, allies deal more
@@ -22,22 +27,25 @@ Swashbuckler
 
 Whisper
     Weapons: Knife, Bow
-    Skill -
+    Skill - Blinding Powder - Unit stealths for 3 turns.  Can take action after using. (Cooldown)
     Upgrade Skill - Backstab has SKL% to sleep target
-    Capstone -
+    Capstone - Rewind - after a backstab, can warp to starting position and stealth for 1 turn. (Cooldown)
 Kingkiller
     Weapons: Knife, Bow
-    Skill -
+    Skill - Blink Teleport behind target enemy within range (skill/4). Cannot otherwise move. Can take action afterwards(cooldown).
     Upgrade Skill - Backstab has extra dmg based on skill
-    Capstone -
+    Capstone - Overstrike - Can take 1 additional action this turn. Next 2 turns cannot act. (Cooldown)
 Rake
+Theme: Bard like with an emphasis on tanking and buff/debuffs charming, yet dangerous
     Weapons: Knife, Sword
-    Skill - Killing an enemy grants -3 SKL SPD DEF RES to enemies within
+    Skill - Killing an enemy grants +3 SKL SPD ATK MAG to allies within
         two squares (decays over two turns; refreshes, doesn't stack)
-    Upgrade Skill - allies get flanking bonus when you're adj
-    Capstone -
+    Upgrade Skill - allies get flanking bonus when you're adj to the enemy
+    Capstone - Charm target unit unequips weapon. (cooldown)
 Sparrow
+Theme: Mobile controls own and enemy positions
     Weapons: Knife, Sword
     Skill - Lunge swap places with you and target before attack
+			Disengage move backwards 2 after attack
     Upgrade Skill - you can flank for yourself if you start turn adj
-    Capstone - Disengage move backwards 2 after attack
+    Capstone - Pull enemy back two spaces with you after attack (cooldown)
