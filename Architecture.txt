@@ -1,0 +1,69 @@
+Game has 2 states: menu and animation. While animation, players have no control.
+2 types of menus: 1d and 2d. 1d menus have up, down, help, select, back options,
+while 2d have the same but with left and right (normally no back?).
+
+To-do List:
+	Map / Actual working game
+	Weapon Triangle
+	Weapon Exp / Ranks
+
+GameMap
+	Terrain
+	Parties
+		Characters
+			Attributes
+				Growths
+				Raw Attributes
+				WeaponRanks
+				Bonuses
+				currentHp
+				levelUp()
+			LevelInfo
+				Level
+				Tier
+				Experience Points
+				TotalLevel()
+			Inventory
+				WeaponsList
+					Item:Weapon
+						DamageSkill
+						MT
+						Hit
+						Crit
+						AttributeBonuses
+						Equipped?
+				OtherItems
+					Item:Other (maybe more specific subclasses)
+				EquippedList
+					Item:Weapon (Maintain at 1 unless special circumstances)
+			Skills
+				No clue how to do this yet.
+			Statuses (maybe impliment as list of where each comes from and what it is)
+				Buffs from allies
+				Debuffs from enemies
+			gainExp() (check for level ups)
+			takeDamage() (check for death)
+			Combat()
+			Equip()
+		Gold
+		ConvoyItemList
+		saveParty()
+		loadParty()
+	loadChapter()
+
+
+
+Events
+	Combat Window		Characters (Names at least) and stats
+	Damage				Location
+	Healing				Location
+	Deaths				Character
+	WinCon achieved		None
+	LevelUp				Character (Name at least)
+
+	Examine				Object
+	Move				Start and End Locations
+	Exp Gain			Character (Mane at least)
+
+To-do list
+	level design
