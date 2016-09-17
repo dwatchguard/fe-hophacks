@@ -21,24 +21,28 @@
                 Apostate
 
         Valkyrie
+	theme: mounted flying combat healers
             Weapons: Staff, Sword
             Skill - Can use remaining movement after using staff
-            Upgrade Skill - Attacking instead heals allies within 1/2/3 spaces
+            Upgrade Skill - Attacking or using Staves heals allies within 1/2/3 spaces
 				by .5/.25/.125 MAG
-            Capstone -
+            Capstone - Savior - Once per turn, can Act again after using a staff. Canot use staves for two turns.
         Justiciar
+	theme: Staff user with an emphasis on Attacking.
             Weapons: Staff, Sword, Lance
             Skill - Can attack after using staff (no movement)
             Upgrade Skill - Attacking also damages other enemies within 2 spaces
 				by 1/4 MAG
-            Capstone -
+            Capstone - Bulwark - not moving grants 2 def and resistance. Stacks up to 5 times.
         Apostate
+	theme: debuff based dark mage. High charisma by lower magic.
             Weapons: Dark Tomes, Staff (Light WEXP -> Dark WEXP)
-            Skill -
-            Upgrade Skill -
-            Capstone -
+            Skill - Dealing damage grants 2 stacks of Curse. Curse reduces Res, Def, Cha, Skl by 1. max 5 Stacks (1 stack decays per turn) 
+            Upgrade Skill - Additional 1/8 bonus to ATK and MAG
+            Capstone - Damaging a cursed unit deals 1 damage to units within 2 spaces. (is recursive, cannot damage same unit more than once. If it would kill, only curses instead)
         Saint
+	Theme: Healing to the max, 
             Weapons: Light Tome, Staff
-            Skill -
-            Upgrade Skill - Additional 1/8 MAG bonus to CON
-            Capstone -
+            Skill - Staff range increased by minimum of 10 and range
+            Upgrade Skill - Additional 1/8 MAG bonus to CON (loses 1 stack per turn).
+            Capstone - Using staff on an allied unit grants it divine sheild. (Next instance of damage is negated)
