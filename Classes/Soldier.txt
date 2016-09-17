@@ -22,22 +22,27 @@ Halberdier
 		Lancefaerie
 
 Dark Flier
+Theme: I honestly don't fucking know what his theme is supposed to be in any FE
+	game, let alone this one.
 	Weapons: Lance, Dark Tome
 	Skill -
 	Upgrade Skill -
 	Capstone -
 Falcon Knight
+Theme: I feel the need. The need for speed. (SPD Lance?)
 	Weapons: Lance, Bow
 	Skill -
 	Upgrade Skill -
 	Capstone - Killing a unit refreshes movement
 Sentinel
+Theme: Fairly tanky stalwart dude. Bruiser with AoE. strong, skilled, less fast
 	Weapons: Lance, Sword
 	Skill - with lances, deals damage with 2/3 attack to enemy one
 		square behind primary target
 	Upgrade Skill - Resolve also buffs defense
-	Capstone - Sol
+	Capstone - Sol damage dealt with this attack heals for 1/2 damage dealt.
 Lancefaerie
+Theme: Run into enemy team. Enemy team all attacks you. ??? Profit.
 	Weapons: Lance
 	Skill - Killing blows restore 10% HP
 	Upgrade Skill - Resolve also buffs speed, triggers at 50% HP

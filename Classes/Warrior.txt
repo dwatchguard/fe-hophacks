@@ -1,42 +1,46 @@
-	Warrior
-            Weapons: Axe
-            Skill -
-            Class Change Options:
-                Wyvern Rider
-                Barbarian
-
+Warrior
+    Weapons: Axe
+    Skill -
+    Class Change Options:
         Wyvern Rider
-            Weapons: Axe
-            Skill -
-            Upgrade Skill -
-            Class Change Options:
-                Dragonlord
-                Wyvern Tamer
         Barbarian
-            Weapons: Axe
-            Skill - Crit chance increased by STR/2
-            Upgrade Skill -
-            Class Change Options:
-                Berserker
-                Reaver
 
+Wyvern Rider
+    Weapons: Axe
+    Skill -
+    Upgrade Skill -
+    Class Change Options:
         Dragonlord
-            Weapons: Axe, Lance
-            Skill -
-            Upgrade Skill -
-            Capstone -
         Wyvern Tamer
-            Weapons: Axe, Breath
-            Skill -
-            Upgrade Skill -
-            Capstone -
+Barbarian
+    Weapons: Axe
+    Skill - Crit chance increased by STR/2
+    Upgrade Skill -
+    Class Change Options:
         Berserker
-            Weapons: Axe, Lance
-            Skill -
-            Upgrade Skill - Crits also deal an additional 1/2 STR damage
-            Capstone -
         Reaver
-            Weapons: Axe
-            Skill -
-            Upgrade Skill - Crits also heal for 1/4 STR
-            Capstone -
+
+Dragonlord
+Theme: Give people the business while riding on a dragon.
+    Weapons: Axe, Lance
+    Skill -
+    Upgrade Skill -
+    Capstone -
+Wyvern Tamer
+Theme: Have your dragon give them the business.
+    Weapons: Axe, Breath
+    Skill -
+    Upgrade Skill -
+    Capstone -
+Berserker
+Theme: Not as tanky, or as critty, but way more dps
+    Weapons: Axe, Lance
+    Skill -
+    Upgrade Skill - Crits also deal an additional 1/2 STR damage
+    Capstone -
+Reaver
+Theme: Tanky guy who uses crits as primary damage source.
+    Weapons: Axe
+    Skill -
+    Upgrade Skill - Crits also heal for 1/4 STR
+    Capstone -
