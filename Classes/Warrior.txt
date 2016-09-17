@@ -1,0 +1,42 @@
+	Warrior
+            Weapons: Axe
+            Skill -
+            Class Change Options:
+                Wyvern Rider
+                Barbarian
+
+        Wyvern Rider
+            Weapons: Axe
+            Skill -
+            Upgrade Skill -
+            Class Change Options:
+                Dragonlord
+                Wyvern Tamer
+        Barbarian
+            Weapons: Axe
+            Skill - Crit chance increased by STR/2
+            Upgrade Skill -
+            Class Change Options:
+                Berserker
+                Reaver
+
+        Dragonlord
+            Weapons: Axe, Lance
+            Skill -
+            Upgrade Skill -
+            Capstone -
+        Wyvern Tamer
+            Weapons: Axe, Breath
+            Skill -
+            Upgrade Skill -
+            Capstone -
+        Berserker
+            Weapons: Axe, Lance
+            Skill -
+            Upgrade Skill - Crits also deal an additional 1/2 STR damage
+            Capstone -
+        Reaver
+            Weapons: Axe
+            Skill -
+            Upgrade Skill - Crits also heal for 1/4 STR
+            Capstone -

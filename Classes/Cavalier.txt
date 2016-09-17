@@ -1,0 +1,34 @@
+        Cavalier
+            Weapons: Sword OR Axe OR Lance
+            Skill - Weapon EXP 2x
+            Class Change Options:
+                Great Knight
+                General
+
+
+        Great Knight
+            Weapons: Two of Sword, Axe, Lance
+            Skill -
+            Upgrade Skill - WEXP 2x and +3 def when using a weapon you have an A
+                or S mastery level for.
+            Class Change Options:
+                Gold Knight
+
+        General
+            Weapons: Two of Sword, Axe, Lance
+            Skill -
+            Upgrade Skill -
+            Class Change Options:
+                Bastion
+
+        Bastion
+            Weapons: Sword, Lance, Axe
+            Skill -
+            Upgrade Skill -
+            Capstone - Smite command deals phys dmg DEF + 1/2 STR
+
+        Gold Knight
+            Weapons: Sword, Lance, Axe, Bow
+            Skill -
+            Upgrade Skill -
+            Capstone -

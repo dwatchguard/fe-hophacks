@@ -1,0 +1,44 @@
+        Priest
+            Weapons: Staff
+            Skill - Miracle (lethal damage reduces HP to 1 if HP >= half)
+            Class Change Options:
+                Cleric
+                Bishop
+
+        Cleric
+            Weapons: Staff, Sword
+            Skill - Attacking heals allies within 2 spaces by 1/4 MAG
+            Upgrade Skill - Miracle (lethal damage reduces HP to 1 if HP > 1)
+            Class Change Options:
+                Valkyrie
+                Justiciar
+        Bishop
+            Weapons: Staff, Light Tome
+            Skill - Overheal by up to 1/4 MAG (decays 1/turn)
+            Upgrade Skill - Miracle (allied units within 2 squares get Miracle)
+            Class Change Options:
+                Saint
+                Apostate
+
+        Valkyrie
+            Weapons: Staff, Sword
+            Skill - Can use remaining movement after using staff
+            Upgrade Skill - Attacking instead heals allies within 1/2/3 spaces
+				by .5/.25/.125 MAG
+            Capstone -
+        Justiciar
+            Weapons: Staff, Sword, Lance
+            Skill - Can attack after using staff (no movement)
+            Upgrade Skill - Attacking also damages other enemies within 2 spaces
+				by 1/4 MAG
+            Capstone -
+        Apostate
+            Weapons: Dark Tomes, Staff (Light WEXP -> Dark WEXP)
+            Skill -
+            Upgrade Skill -
+            Capstone -
+        Saint
+            Weapons: Light Tome, Staff
+            Skill -
+            Upgrade Skill - Additional 1/8 MAG bonus to CON
+            Capstone -
