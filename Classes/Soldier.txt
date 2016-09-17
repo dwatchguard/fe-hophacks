@@ -1,0 +1,45 @@
+Soldier
+	Pegasus Knight
+		Falcon Knight
+		Dark Flier
+	Halberdier
+		Sentinel
+		Lancefaerie
+
+Pegasus Knight
+	Weapons: Lance
+	Skill -
+	Upgrade Skill - Vantage trigger 2 * SPD% at any HP
+	Class Change Options:
+		Dark Flier
+		Falcon Knight
+Halberdier
+	Weapons: Lance
+	Skill - Resolve (At 30% HP 1.5 * STR and SKL)
+	Upgrade Skill - Vantage trigger always at 50% HP
+	Class Change Options:
+		Sentinel
+		Lancefaerie
+
+Dark Flier
+	Weapons: Lance, Dark Tome
+	Skill -
+	Upgrade Skill -
+	Capstone -
+Falcon Knight
+	Weapons: Lance, Bow
+	Skill -
+	Upgrade Skill -
+	Capstone - Killing a unit refreshes movement
+Sentinel
+	Weapons: Lance, Sword
+	Skill - with lances, deals damage with 2/3 attack to enemy one
+		square behind primary target
+	Upgrade Skill - Resolve also buffs defense
+	Capstone - Sol
+Lancefaerie
+	Weapons: Lance
+	Skill - Killing blows restore 10% HP
+	Upgrade Skill - Resolve also buffs speed, triggers at 50% HP
+	Capstone - STR SPD SKL +2 after killing blows at <= 50% HP, max +10,
+		stays until end of level (buffed by resolve)

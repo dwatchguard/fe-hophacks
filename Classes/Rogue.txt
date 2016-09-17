@@ -1,0 +1,43 @@
+Rogue
+	Weapons: Knife
+	Skill - Pass (move through enemy units)
+	Class Change Options:
+		Assassin
+		Swashbuckler
+
+Assassin
+    Weapons: Knife, Bow
+    Skill - Backstab extra damage if enemy is facing away
+    Upgrade Skill - Pass go through an enemy, backstab on them does more
+    Class Change Options:
+        Whisper
+        Kingslayer
+Swashbuckler
+    Weapons: Knife, Sword
+    Skill - Flanking if you and an ally are adj to enemy, extra damage
+    Upgrade Skill - Pass go through an enemy, allies deal more
+    Class Change Options:
+        Rake
+        Sparrow
+
+Whisper
+    Weapons: Knife, Bow
+    Skill -
+    Upgrade Skill - Backstab has SKL% to sleep target
+    Capstone -
+Kingkiller
+    Weapons: Knife, Bow
+    Skill -
+    Upgrade Skill - Backstab has extra dmg based on skill
+    Capstone -
+Rake
+    Weapons: Knife, Sword
+    Skill - Killing an enemy grants -3 SKL SPD DEF RES to enemies within
+        two squares (decays over two turns; refreshes, doesn't stack)
+    Upgrade Skill - allies get flanking bonus when you're adj
+    Capstone -
+Sparrow
+    Weapons: Knife, Sword
+    Skill - Lunge swap places with you and target before attack
+    Upgrade Skill - you can flank for yourself if you start turn adj
+    Capstone - Disengage move backwards 2 after attack

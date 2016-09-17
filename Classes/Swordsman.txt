@@ -1,0 +1,44 @@
+Swordsman
+	Weapons: Sword
+	Skill - Adept
+	Class Change Options:
+		Swordsmaster
+		Mercenary
+
+Swordsmaster
+    Weapons: Sword
+    Skill -
+    Upgrade Skill - Adept -> Astra
+    Class Change Options:
+        Dual Edge
+        Mindblade
+Mercenary
+    Weapons: Sword, Axe
+    Skill -
+    Upgrade Skill - Adept -> Aether (ignore 1/2 def instead of all)
+    Class Change Options:
+        Vanguard
+        Veteran
+		
+Dual Edge
+    Weapons: Sword
+    Skill - Dual Wield (effects stack, avg might)
+    Upgrade Skill -
+    Capstone - Skill% chance to attack with both weapons (add mts, stack
+        effects)
+Mindblade
+    Weapons: Sword
+    Skill - Instead of attacking, 3/4 DMG to +1 Range
+    Upgrade Skill -
+    Capstone - Deal 5*SKL physical damage when enemy attacks that you
+        can't counterattack
+Vanguard
+    Weapons: Sword, Axe
+    Skill -
+    Upgrade Skill -
+    Capstone -
+Veteran
+    Weapons: Sword, Axe, Lance, Bow
+    Skill - Double all weapon triangle bonuses (even detrimental ones)
+    Upgrade Skill -
+    Capstone -
