@@ -1,10 +1,9 @@
 Soldier
-	Pegasus Knight
-		Falcon Knight
-		Dark Flier
-	Halberdier
-		Sentinel
-		Lancefaerie
+	Weapons: Lance
+	Skill - Vantage (trigger 2 * SPD% when 50% HP or lower)
+	Class Change Options:
+		Pegasus Knight
+		Halberdier
 
 Pegasus Knight
 	Weapons: Lance

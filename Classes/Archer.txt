@@ -5,51 +5,53 @@ Archer
 		Sniper
 		Ranger
 
-		
-		Sniper: Bow
-		Theme: focus on Bows
-		skill- grants + 1 to  max range (-15 hit, -3 dmg at max range)
-		skill upgrade- Initiing atack also deals + 5 damage
-			Class Change Options:
-				Deadeye
-				Toxophilite	
-		
-		Ranger:
-		Weapons: Bow, Lance
-		Theme: wilderness survivor
-		skill- ignore terrain costs
-		skill upgrade - When attacked, gain + 20 avoid
-			Class Change Options:
-				Stalker
-				Warden
-				
-		Deadeye:
-		Theme: SNIPING
-		skill: Gain + 1 max range for each turn sttod still. stacks twice. -15 hit and -3 damage for each extra range used.
-		skill upgrade (up to +2 max range. -15 hit and -3 damage for each extra range)
-		capstone: Telling Shot: lose all range detriments this turn. cannot attack next turn.
-			
-		Toxophilite	
-		Theme: Aoe damage, range manipulation
-		skill: Hail of Arrows: deal damage in a 3*3 square within 3 spaces. deals 1/2 normal damage, reveals stealthed units.
-		skill upgrade: when atttacking at max range, gain +15 hit and 3 damage instead of losing it.	
-		Capstone: Squares within 2 range gain movecost + 1 for enemy units (does not stack)
-		
-		Stalker:
-		Weapons: Bow, Lance
-		theme: stealthy hunters
-		skill: Kills grant stealth for 2 turns.
-		skill upgrade: Gain stealth upon entering terrain.
-		Capstone: Initiating attack from stealth deals 50% bonus damage. Cannot stealth for x(2?) turns 
-		
-		Warden:
-		Weapons: Bow, Lance, Companions
-		Theme: animal tamer can summon Bears Wolves and Falcons
-		skill: Summon Pet- only 1 pet can be summoned at a time. Unit has level equal to caster. Shares exp with warden.
-			   Dismiss Pet
-		skill upgrade: Pets gain increased movement through natural terrain, and ignore terrain costs.
-		Capstone: Pets gain an occult skill.
-			Bear: Roar- Taunts adjacent enemy units.
-			Wolf: Pack Dominance: allies get flanking bonus when you're adj to the enemy.
-			Falcon: Steal: steal unequiped item from target adjacent enemy.
-		
+
+Sniper
+Theme: focus on Bows
+	Weapons: Bow
+	skill- grants + 1 to  max range (-15 hit, -3 dmg at max range)
+	skill upgrade- Initiing atack also deals + 5 damage
+		Class Change Options:
+			Deadeye
+			Toxophilite
+
+Ranger
+Theme: wilderness survivor
+	Weapons: Bow, Lance
+	skill- ignore terrain costs
+	skill upgrade - When attacked, gain + 20 avoid
+		Class Change Options:
+			Stalker
+			Warden
+
+Deadeye:
+Theme: SNIPING
+	Weapons: Bow
+	Skill: Gain + 1 max range for each turn sttod still. stacks twice. -15 hit and -3 damage for each extra range used.
+	Skill Upgrade (up to +2 max range. -15 hit and -3 damage for each extra range)
+	Capstone: Telling Shot: lose all range detriments this turn. cannot attack next turn.
+
+Toxophilite
+Theme: Aoe damage, range manipulation
+Weapons: Bow
+Skill: Hail of Arrows: deal damage in a 3*3 square within 3 spaces. deals 1/2 normal damage, reveals stealthed units.
+Skill Upgrade: when atttacking at max range, gain +15 hit and 3 damage instead of losing it.
+Capstone: Squares within 2 range gain movecost + 1 for enemy units (does not stack)
+
+Stalker:
+Theme: stealthy hunters
+	Weapons: Bow, Lance
+	Skill: Kills grant stealth for 2 turns.
+	Skill Upgrade: Gain stealth upon entering terrain.
+	Capstone: Initiating attack from stealth deals 50% bonus damage. Cannot stealth for x(2?) turns
+
+Warden:
+Theme: animal tamer can summon Bears Wolves and Falcons
+	Weapons: Bow, Lance, Companions
+	skill: Summon Pet- only 1 pet can be summoned at a time. Unit has level equal to caster. Shares exp with warden.
+		   Dismiss Pet
+	skill upgrade: Pets gain increased movement through natural terrain, and ignore terrain costs.
+	Capstone: Pets gain an occult skill.
+		Bear: Roar- Taunts adjacent enemy units.
+		Wolf: Pack Dominance: allies get flanking bonus when you're adj to the enemy.
+		Falcon: Steal: steal unequiped item from target adjacent enemy.
