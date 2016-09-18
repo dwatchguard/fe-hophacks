@@ -7,15 +7,15 @@ Swordsman
 
 Swordsmaster
     Weapons: Sword
-    Skill -
+    Skill - Mach Speed: can attack 3 times when speed is 8 or more higher than opponent's. if atttacked, enemy stirke, folllowed by triple attack. when attacking, double strike first, then enemy, then final strike.
     Upgrade Skill - Adept -> Astra 5 hits/half damage (%chance Spd)
     Class Change Options:
         Dual Edge
         Mindblade
 Mercenary
     Weapons: Sword, Axe
-    Skill -
-    Upgrade Skill - Adept -> Aether (ignore 1/2 def instead of all)
+    Skill - gain + 5 skl during enemy turn;
+    Upgrade Skill - Adept -> Aether (ignore 1/2 def instead of all) (%skl)
     Class Change Options:
         Vanguard
         Veteran
@@ -24,27 +24,26 @@ Dual Edge
 Theme: SAO Kirito minus the mary sue
     Weapons: Sword
     Skill - Dual Wield (effects stack, avg might)
-    Upgrade Skill -
+    Upgrade Skill - When attacked and mach speed procs, you strike first.
     Capstone - Skill% chance to attack with both weapons (add mts, stack
         effects)
 Mindblade
 Theme: Irelia. Psion/blademage. Not as much damage as dual edge, but more range.
     Weapons: Sword
-    Skill - Instead of attacking, deal .75/.5/.25 attack phys damage to enemy
-			within 2/3/4 spaces. (all enemies in a direction?)
-    Upgrade Skill -
+    Skill - (Mage Blade)This turn gain + 1 range and deal magic damage. -15 hit -3 atk.
+    Upgrade Skill - When Mach Speed procs, your second attack deals opposite damage damage instead of physical.
     Capstone - Deal 1.5*SKL physical damage when enemy attacks that you
         can't counterattack (from beyond your range) (use action to ready
 		reaction? % chance of happening?)
 Vanguard
 Theme: Tanky, damagey badass lord.
     Weapons: Sword, Axe
-    Skill -
-    Upgrade Skill -
-    Capstone -
+    Skill - Critcal Armor: gain 50% def against critical strikes.
+    Upgrade Skill - gain + 5 skill for each time attacked during enemy turn. stacks up to 5 times. Completely decays upon your turn.
+    Capstone - Cleave (%skl) chance to attack enemies to the sides of enemy Unit for half damage.
 Veteran
 Theme: Weapons master, always uses the right tool for the job.
     Weapons: Sword, Axe, Lance, Bow
     Skill - Double all weapon triangle bonuses (even detrimental ones)
-    Upgrade Skill -
-    Capstone -
+    Upgrade Skill - In addition to +5 skill, if his skill is higher gain skill equal to half the difference.
+    Capstone - Nihil negate enemy combat skills
