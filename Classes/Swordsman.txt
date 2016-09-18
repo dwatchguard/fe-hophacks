@@ -1,6 +1,6 @@
 Swordsman
 	Weapons: Sword
-	Skill - Adept
+	Skill - Adept (%chance Spd)
 	Class Change Options:
 		Swordsmaster
 		Mercenary
@@ -8,7 +8,7 @@ Swordsman
 Swordsmaster
     Weapons: Sword
     Skill -
-    Upgrade Skill - Adept -> Astra
+    Upgrade Skill - Adept -> Astra 5 hits/half damage (%chance Spd)
     Class Change Options:
         Dual Edge
         Mindblade
@@ -33,7 +33,7 @@ Theme: Irelia. Psion/blademage. Not as much damage as dual edge, but more range.
     Skill - Instead of attacking, deal .75/.5/.25 attack phys damage to enemy
 			within 2/3/4 spaces. (all enemies in a direction?)
     Upgrade Skill -
-    Capstone - Deal 5*SKL physical damage when enemy attacks that you
+    Capstone - Deal 1.5*SKL physical damage when enemy attacks that you
         can't counterattack (from beyond your range) (use action to ready
 		reaction? % chance of happening?)
 Vanguard
