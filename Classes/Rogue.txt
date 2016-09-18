@@ -1,6 +1,6 @@
 Rogue
 Theme:
-Knife weilding rogues who posses high speed, attack, and charisma. Good at dispatching single squishy units, but lack the defensive capapbilities to survive large skirmishes
+Knife wielding rogues who posses high speed, attack, and charisma. Good at dispatching single squishy units, but lack the defensive capabilities to survive large skirmishes
 	Weapons: Knife
 	Skill - Pass (move through enemy units)
 	Class Change Options:
@@ -9,7 +9,7 @@ Knife weilding rogues who posses high speed, attack, and charisma. Good at dispa
 
 Assassin
 Theme:
-A rogue who has gained access to a bow. 
+A rogue who has gained access to a bow.
     Weapons: Knife, Bow
     Skill - Backstab extra damage if enemy is facing away
     Upgrade Skill - Pass go through an enemy, backstab on them does more
@@ -29,7 +29,7 @@ Whisper
     Weapons: Knife, Bow
     Skill - Blinding Powder - Unit stealths for 3 turns.  Can take action after using. (Cooldown)
     Upgrade Skill - Backstab has SKL% to sleep target
-    Capstone - Rewind - after a backstab, can warp to starting position and stealth for 1 turn. (Cooldown)
+    Capstone - Rewind - after a backstab, stealth for 1 turn and may warp to starting position  (Cooldown)
 Kingkiller
     Weapons: Knife, Bow
     Skill - Blink Teleport behind target enemy within range (skill/4). Cannot otherwise move. Can take action afterwards(cooldown).
