@@ -1,6 +1,7 @@
 Rogue
-Theme:
-Knife wielding rogues who posses high speed, attack, and charisma. Good at dispatching single squishy units, but lack the defensive capabilities to survive large skirmishes
+Theme: Knife wielding rogues who posses high speed, attack, and charisma. Good
+	at dispatching single squishy units, but lack the defensive capabilities to
+	survive large skirmishes.
 	Weapons: Knife
 	Skill - Pass (move through enemy units)
 	Class Change Options:
@@ -27,16 +28,21 @@ Theme:
 
 Whisper
     Weapons: Knife, Bow
-    Skill - Blinding Powder - Unit stealths for 3 turns.  Can take action after using. (Cooldown)
+    Skill - Blinding Powder - Unit stealths for 3 turns.  Can take action after
+	using. (Cooldown)
     Upgrade Skill - Backstab has SKL% to sleep target
-    Capstone - Rewind - after a backstab, stealth for 1 turn and may warp to starting position  (Cooldown)
+    Capstone - Rewind - after a backstab, stealth for 1 turn and may warp to
+		starting position  (Cooldown)
 Kingkiller
     Weapons: Knife, Bow
-    Skill - Blink Teleport behind target enemy within range (skill/4). Cannot otherwise move. Can take action afterwards(cooldown).
+    Skill - Blink Teleport behind target enemy within range (skill/4). Cannot
+		otherwise move. Can take action afterwards(cooldown).
     Upgrade Skill - Backstab has extra dmg based on skill
-    Capstone - Overstrike - Can take 1 additional action this turn. Next 2 turns cannot act. (Cooldown)
+    Capstone - Overstrike - Can take 1 additional action this turn. Next 2 turns
+		cannot act. (Cooldown)
 Rake
-Theme: Bard like with an emphasis on tanking and buff/debuffs charming, yet dangerous
+Theme: Bard like with an emphasis on tanking and buff/debuffs charming, yet
+	dangerous
     Weapons: Knife, Sword
     Skill - Killing an enemy grants +3 SKL SPD ATK MAG to allies within
         two squares (decays over two turns; refreshes, doesn't stack)

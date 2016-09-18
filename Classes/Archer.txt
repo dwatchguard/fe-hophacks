@@ -27,31 +27,41 @@ Theme: wilderness survivor
 Deadeye:
 Theme: SNIPING
 	Weapons: Bow
-	Skill: Gain + 1 max range for each turn sttod still. stacks twice. -15 hit and -3 damage for each extra range used.
-	Skill Upgrade (up to +2 max range. -15 hit and -3 damage for each extra range)
-	Capstone: Telling Shot: lose all range detriments this turn. cannot attack next turn.
+	Skill: Gain + 1 max range for each turn sttod still. stacks twice. -15 hit
+		and -3 damage for each extra range used.
+	Skill Upgrade (up to +2 max range. -15 hit and -3 damage for each extra
+		range)
+	Capstone: Telling Shot: lose all range detriments this turn. cannot attack
+		next turn.
 
 Toxophilite
-Theme: Aoe damage, range manipulation
-Weapons: Bow
-Skill: Hail of Arrows: deal damage in a 3*3 square within 3 spaces. deals 1/2 normal damage, reveals stealthed units.
-Skill Upgrade: when atttacking at max range, gain +15 hit and 3 damage instead of losing it.
-Capstone: Squares within 2 range gain movecost + 1 for enemy units (does not stack)
+Theme: AoE damage, range manipulation
+	Weapons: Bow
+	Skill: Hail of Arrows: deal damage in a 3*3 square within 3 spaces. deals
+		1/2 normal damage, reveals stealthed units.
+	Skill Upgrade: when attacking at max range, gain +15 hit and 3 damage
+		instead of losing it.
+	Capstone: Squares within 2 range gain movecost + 1 for enemy units (does not
+		stack)
 
 Stalker:
 Theme: stealthy hunters
 	Weapons: Bow, Lance
 	Skill: Kills grant stealth for 2 turns.
 	Skill Upgrade: Gain stealth upon entering terrain.
-	Capstone: Initiating attack from stealth deals 50% bonus damage. Cannot stealth for x(2?) turns
+	Capstone: Initiating attack from stealth deals 50% bonus damage. Cannot
+		stealth for x(2?) turns
 
 Warden:
 Theme: animal tamer can summon Bears Wolves and Falcons
 	Weapons: Bow, Lance, Companions
-	skill: Summon Pet- only 1 pet can be summoned at a time. Unit has level equal to caster. Shares exp with warden.
+	skill: Summon Pet- only 1 pet can be summoned at a time. Unit has level
+		equal to caster. Shares exp with warden.
 		   Dismiss Pet
-	skill upgrade: Pets gain increased movement through natural terrain, and ignore terrain costs.
+	skill upgrade: Pets gain increased movement through natural terrain, and
+		ignore terrain costs.
 	Capstone: Pets gain an occult skill.
 		Bear: Roar- Taunts adjacent enemy units.
-		Wolf: Pack Dominance: allies get flanking bonus when you're adj to the enemy.
+		Wolf: Pack Dominance: allies get flanking bonus when you're adj to the
+			enemy.
 		Falcon: Steal: steal unequiped item from target adjacent enemy.

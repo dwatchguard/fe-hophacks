@@ -1,6 +1,6 @@
  - Fire Emblem-esque Turn-based Strategy Game
 
- Character Attributes
+Character Attributes
     Strength (STR):
         Default damage stat for physical attacks
     Magic (MAG):
