@@ -1,20 +1,20 @@
 Soldier
 	Weapons: Lance
-	Skill - Vantage (trigger 2 * SPD% when 50% HP or lower)
+	Skill - Vantage (when 50% HP or lower if your speed is greater than enemy)
 	Class Change Options:
 		Pegasus Knight
 		Halberdier
 
 Pegasus Knight
 	Weapons: Lance
-	Skill -
-	Upgrade Skill - Vantage trigger 2 * SPD% at any HP
+	Skill - Bonus RES/4 at max HP
+	Upgrade Skill - Vantage at any HP with greater speed
 	Class Change Options:
 		Dark Flier
 		Falcon Knight
 Halberdier
 	Weapons: Lance
-	Skill - Resolve (At 30% HP 1.5 * STR and SKL)
+	Skill - Resolve (At 50% HP 1.5 * STR and SKL)
 	Upgrade Skill - Vantage trigger always at 50% HP
 	Class Change Options:
 		Sentinel
@@ -24,26 +24,27 @@ Dark Flier
 Theme: I honestly don't fucking know what his theme is supposed to be in any FE
 	game, let alone this one.
 	Weapons: Lance, Dark Tome
-	Skill -
-	Upgrade Skill -
-	Capstone -
+	Skill - If starting the turn with no units within 3 spaces, gain MAG/2 HP
+	Upgrade Skill - Also gives MAG/4 when max HP
+	Capstone - Frenzy: Dealing killing blow doubles SPD until the start of your
+		next turn. (No stacking.)
 Falcon Knight
 Theme: I feel the need. The need for speed. (SPD Lance?)
 	Weapons: Lance, Bow
-	Skill -
+	Skill - Movement heals for 2.5% max HP per space.
 	Upgrade Skill -
-	Capstone - Killing a unit refreshes movement
+	Capstone - Killing a unit completely refreshes movement
 Sentinel
 Theme: Fairly tanky stalwart dude. Bruiser with AoE. strong, skilled, less fast
 	Weapons: Lance, Sword
 	Skill - with lances, deals damage with 2/3 attack to enemy one
 		square behind primary target
 	Upgrade Skill - Resolve also buffs defense
-	Capstone - Sol damage dealt with this attack heals for 1/2 damage dealt.
+	Capstone - Take 1/2 damage when under 50% HP
 Lancefaerie
 Theme: Run into enemy team. Enemy team all attacks you. ??? Profit.
 	Weapons: Lance
-	Skill - Killing blows restore 10% HP
-	Upgrade Skill - Resolve also buffs speed, triggers at 50% HP
-	Capstone - STR SPD SKL +2 after killing blows at <= 50% HP, max +10,
+	Skill - STR SPD SKL +2 after killing blows at <= 50% HP, max +10,
 		stays until end of level (buffed by resolve)
+	Upgrade Skill - Resolve also buffs speed
+	Capstone - Wrath double crit when under 50% HP

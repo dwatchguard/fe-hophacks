@@ -41,6 +41,6 @@ Theme: Not as tanky, or as critty, but way more dps
 Reaver
 Theme: Tanky guy who uses crits as primary damage source.
     Weapons: Axe
-    Skill -
+    Skill - 
     Upgrade Skill - Crits also heal for 1/4 STR
     Capstone -

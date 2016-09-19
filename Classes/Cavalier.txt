@@ -14,7 +14,7 @@ Great Knight
     Class Change Options:
         Gold Knight
 
-General
+Paladin
     Weapons: Two of Sword, Axe, Lance
     Skill -
     Upgrade Skill -
