@@ -1,6 +1,6 @@
 Archer
 	Weapons: Bow
-	skill- Initiang an attack grants + 40 hit
+	skill- Initiating an attack grants + 40 hit
 	Class Change:
 		Sniper
 		Ranger
@@ -10,7 +10,7 @@ Sniper
 Theme: focus on Bows
 	Weapons: Bow
 	skill- grants + 1 to  max range (-15 hit, -3 dmg at max range)
-	skill upgrade- Initiing atack also deals + 5 damage
+	skill upgrade- Initiating attack also deals + 5 damage
 		Class Change Options:
 			Deadeye
 			Toxophilite
@@ -27,7 +27,7 @@ Theme: wilderness survivor
 Deadeye:
 Theme: SNIPING
 	Weapons: Bow
-	Skill: Gain + 1 max range for each turn sttod still. stacks twice. -15 hit
+	Skill: Gain + 1 max range for each turn stood still. Stacks twice. -15 hit
 		and -3 damage for each extra range used.
 	Skill Upgrade (up to +2 max range. -15 hit and -3 damage for each extra
 		range)
@@ -56,12 +56,12 @@ Warden:
 Theme: animal tamer can summon Bears Wolves and Falcons
 	Weapons: Bow, Lance, Companions
 	skill: Summon Pet- only 1 pet can be summoned at a time. Unit has level
-		equal to caster. Shares exp with warden.
+		equal to caster. Shares EXP with warden.
 		   Dismiss Pet
 	skill upgrade: Pets gain increased movement through natural terrain, and
 		ignore terrain costs.
-	Capstone: Pets gain an occult skill.
-		Bear: Roar- Taunts adjacent enemy units.
-		Wolf: Pack Dominance: allies get flanking bonus when you're adj to the
+	Capstone - Pets gain an occult skill.
+		Bear: Roar - Taunts adjacent enemy units.
+		Wolf: Pack Dominance: allies get flanking bonus when Wolf is adj to the
 			enemy.
 		Falcon: Steal: steal unequiped item from target adjacent enemy.

@@ -32,6 +32,6 @@ Gold Knight
     Capstone -
 
 	Weapons: Two of Sword, Axe, Lance
-	Skil
+	Skill - 
 	Upgrade Skill -
 	Capstone -

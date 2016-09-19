@@ -34,10 +34,10 @@ Theme: Staff user with an emphasis on Attacking.
         Skill - Can attack after using staff (no movement)
         Upgrade Skill - Attacking also damages other enemies within 2 spaces
 			by 1/4 MAG
-        Capstone - Bulwark - not moving grants 2 def and resistance. Stacks up
-			to 5 times.
+        Capstone - Bulwark - Not moving grants 2 def and resistance to all
+			allied units within two spaces, self included. Stacks up to 5 times.
 Apostate
-Theme: debuff based dark mage. High charisma by lower magic.
+Theme: Debuff based dark mage. High charisma by lower magic.
         Weapons: Dark Tomes, Staff (Light WEXP -> Dark WEXP)
         Skill - Dealing damage grants 2 stacks of Curse. Curse reduces RES, DEF,
 			CHA, SKL by 1. max 5 Stacks (1 stack decays per turn)
