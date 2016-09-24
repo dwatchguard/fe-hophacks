@@ -1,6 +1,6 @@
 Soldier
 	Weapons: Lance
-	Skill - Vantage (when 50% HP or lower if your speed is greater than enemy)
+	Skill - Vantage (when 50% HP or lower and if your speed is greater than enemy)
 	Class Change Options:
 		Pegasus Knight
 		Halberdier
@@ -32,7 +32,7 @@ Falcon Knight
 Theme: I feel the need. The need for speed. (SPD Lance?)
 	Weapons: Lance, Bow
 	Skill - Movement heals for 2.5% max HP per space.
-	Upgrade Skill -
+	Upgrade Skill - +1 movement at Max HP.
 	Capstone - Killing a unit completely refreshes movement
 Sentinel
 Theme: Fairly tanky stalwart dude. Bruiser with AoE. strong, skilled, less fast
