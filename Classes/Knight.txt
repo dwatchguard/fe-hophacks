@@ -1,4 +1,5 @@
 Knight
+	Theme: Armored guy
 	Weapons: Sword OR Axe OR Lance
 	Skill -
 	Class Change Options:
@@ -6,6 +7,7 @@ Knight
 		General
 
 Great Knight
+	Theme: armored horse guy
     Weapons: Two of Sword, Axe, Lance
     Skill -
     Upgrade Skill - WEXP 2x and +3 def when using a weapon you have an A
@@ -14,6 +16,7 @@ Great Knight
         Gold Knight
 
 General
+	Theme: Super Armored guy. 0% chance to give fucks
     Weapons: Two of Sword, Axe, Lance
     Skill -
     Upgrade Skill -
@@ -32,6 +35,6 @@ Gold Knight
     Capstone -
 
 	Weapons: Two of Sword, Axe, Lance
-	Skill - 
+	Skill -
 	Upgrade Skill -
 	Capstone -

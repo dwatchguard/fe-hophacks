@@ -7,7 +7,7 @@ Archer
 
 
 Sniper
-Theme: focus on Bows
+Theme: focus on Bows, more composed, experienced, professional than Archer
 	Weapons: Bow
 	skill- grants + 1 to  max range (-15 hit, -3 dmg at max range)
 	skill upgrade- Initiating attack also deals + 5 damage
@@ -16,7 +16,7 @@ Theme: focus on Bows
 			Toxophilite
 
 Ranger
-Theme: wilderness survivor
+Theme: wilderness survivor, rougher
 	Weapons: Bow, Lance
 	skill- ignore terrain costs
 	skill upgrade - When attacked, gain + 20 avoid
@@ -25,7 +25,7 @@ Theme: wilderness survivor
 			Warden
 
 Deadeye:
-Theme: SNIPING
+Theme: SNIPING, kills people from days away
 	Weapons: Bow
 	Skill: Gain + 1 max range for each turn stood still. Stacks twice. -15 hit
 		and -3 damage for each extra range used.
@@ -35,7 +35,7 @@ Theme: SNIPING
 		next turn.
 
 Toxophilite
-Theme: AoE damage, range manipulation
+Theme: AoE damage, tires to keep enemies at exactly max range
 	Weapons: Bow
 	Skill: Hail of Arrows: deal damage in a 3*3 square within 3 spaces. deals
 		1/2 normal damage, reveals stealthed units.

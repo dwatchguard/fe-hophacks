@@ -1,4 +1,5 @@
 Warrior
+	Theme: Basic lightly armored axe guy.
     Weapons: Axe
     Skill -
     Class Change Options:
@@ -6,6 +7,7 @@ Warrior
         Barbarian
 
 Wyvern Rider
+	Theme: Rides a dragon, too. Heavier armor.
     Weapons: Axe
     Skill -
     Upgrade Skill -
@@ -13,6 +15,7 @@ Wyvern Rider
         Dragonlord
         Wyvern Tamer
 Barbarian
+	Theme: More shirtless = more damage
     Weapons: Axe
     Skill - Crit chance increased by STR/2
     Upgrade Skill -
@@ -21,26 +24,28 @@ Barbarian
         Reaver
 
 Dragonlord
-Theme: Give people the business while riding on a dragon.
+	Theme: Give people the business while riding on a dragon.
     Weapons: Axe, Lance
     Skill -
     Upgrade Skill -
     Capstone -
 Wyvern Tamer
-Theme: Have your dragon give them the business.
+	Theme: Have your dragon give them the business.
     Weapons: Axe, Breath
     Skill -
     Upgrade Skill -
     Capstone -
 Berserker
-Theme: Not as tanky, or as critty, but way more dps
+	Theme: Not as tanky, or as critty, but way more dps. He-man/Viking guy with
+		a big axe. Faster than reaver.
     Weapons: Axe, Lance
     Skill -
     Upgrade Skill - Crits also deal an additional 1/2 STR damage
     Capstone -
 Reaver
-Theme: Tanky guy who uses crits as primary damage source.
+	Theme: Tanky guy who uses crits as primary damage source. Big, slow, hits for
+		tons of damage
     Weapons: Axe
-    Skill - 
+    Skill -
     Upgrade Skill - Crits also heal for 1/4 STR
     Capstone -

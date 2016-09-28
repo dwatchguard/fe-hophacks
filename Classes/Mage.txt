@@ -1,4 +1,5 @@
 Mage
+	Theme: Basic, magic using, shitty wizard. Uses a book to attack
 	Weapons: Anima Tome
 	Skill -
 	Class Change Options:
@@ -6,6 +7,7 @@ Mage
 		Pact Acolyte
 
 Sage
+	Theme: Up to like Book 5 Hermione levels of wizard.
 	Weapons: Anima Tome, Staff
 	Skill -
 	Upgrade Skill -
@@ -13,6 +15,8 @@ Sage
 		Archsage
 		Grandmaster
 Pact Acolyte
+	Theme: studying summoning magic to make a pact with a demon or a Tom
+		Bombadil-like thing
 	Weapons: Anima Tome, Knife
 	Skill -
 	Upgrade Skill -
@@ -21,16 +25,19 @@ Pact Acolyte
 		Feybound
 
 Archsage
+	Theme: We Dumbledore now.
 	Weapons: Any Tome, Staff
 	Skill -
 	Upgrade Skill -
 	Capstone -
 Grandmaster
+	Theme: Master tactician who uses swords and magic
 	Weapons: Anima Tome, Staff, Sword
 	Skill -
 	Upgrade Skill -
 	Capstone -
 Demonbound
+	Theme: Made a pact with a demon for some more power
 	Weapons: Anima Tome, Knife, Dark Tome
 	Skill - When fighting and adjacent enemy, enemy AVO -25, enemy
 		crit dodge -30
@@ -38,6 +45,8 @@ Demonbound
 	Capstone - Alternate Attack: Consume 50% Current HP and add it to
 		damage (multiple hits makes you lose HP multiple times)
 Feybound
+	Theme: Made a pact with a Fey, a thing that doesn't really *get* human
+		morality, isn't straight up evil, but is tricksy and capricious.
 	Weapons: Anima Tome, Knife, Light Tome
 	Skill -
 	Upgrade Skill -

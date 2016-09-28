@@ -1,4 +1,5 @@
 Soldier
+	Theme: lightly armored lance user
 	Weapons: Lance
 	Skill - Vantage (when 50% HP or lower if your speed is greater than enemy)
 	Class Change Options:
@@ -6,6 +7,7 @@ Soldier
 		Halberdier
 
 Pegasus Knight
+	Theme: lance guy/gal on a pegasus
 	Weapons: Lance
 	Skill - Bonus RES/4 at max HP
 	Upgrade Skill - Vantage at any HP with greater speed
@@ -13,6 +15,7 @@ Pegasus Knight
 		Dark Flier
 		Falcon Knight
 Halberdier
+	Theme: Better, faster, stronger Soldier. Has a bit more armor, still not a lot
 	Weapons: Lance
 	Skill - Resolve (At 50% HP 1.5 * STR and SKL)
 	Upgrade Skill - Vantage trigger always at 50% HP
@@ -21,28 +24,31 @@ Halberdier
 		Lancefaerie
 
 Dark Flier
-Theme: I honestly don't fucking know what his theme is supposed to be in any FE
-	game, let alone this one.
+	Theme: The pegasus is evil now or something. They use magic too.
 	Weapons: Lance, Dark Tome
 	Skill - If starting the turn with no units within 3 spaces, gain MAG/2 HP
 	Upgrade Skill - Also gives MAG/4 when max HP
 	Capstone - Frenzy: Dealing killing blow doubles SPD until the start of your
 		next turn. (No stacking.)
 Falcon Knight
-Theme: I feel the need. The need for speed. (SPD Lance?)
+	Theme: I feel the need. The need for speed. (SPD Lance?) Still rides a
+		pegasus, contrary to what the name would suggest.
 	Weapons: Lance, Bow
 	Skill - Movement heals for 2.5% max HP per space.
 	Upgrade Skill -
 	Capstone - Killing a unit completely refreshes movement
 Sentinel
-Theme: Fairly tanky stalwart dude. Bruiser with AoE. strong, skilled, less fast
+	Theme: Fairly tanky stalwart dude. Bruiser with AoE. strong, skilled, less fast.
+		More armored than Halberdier, less than Knight/General
 	Weapons: Lance, Sword
 	Skill - with lances, deals damage with 2/3 attack to enemy one
 		square behind primary target
 	Upgrade Skill - Resolve also buffs defense
 	Capstone - Take 1/2 damage when under 50% HP
 Lancefaerie
-Theme: Run into enemy team. Enemy team all attacks you. ??? Profit.
+	Theme: Run into enemy team. Enemy team all attacks you. ??? Profit.
+		Super fast, goes super sayin when people hit him down to 50% HP, not
+		very defensively bulky. 
 	Weapons: Lance
 	Skill - STR SPD SKL +2 after killing blows at <= 50% HP, max +10,
 		stays until end of level (buffed by resolve)

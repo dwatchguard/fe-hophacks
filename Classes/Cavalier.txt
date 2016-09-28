@@ -1,4 +1,5 @@
 Cavalier
+	Theme: Horse guy with axe or sword or lance
     Weapons: Sword OR Axe OR Lance
     Skill - Weapon EXP 2x
     Class Change Options:
@@ -7,6 +8,7 @@ Cavalier
 
 
 Great Knight
+	Theme: Armored Horse guy
     Weapons: Two of Sword, Axe, Lance
     Skill -
     Upgrade Skill - WEXP 2x and +3 def when using a weapon you have an A
@@ -15,6 +17,7 @@ Great Knight
         Gold Knight
 
 Paladin
+	Theme: better horse guy
     Weapons: Two of Sword, Axe, Lance
     Skill -
     Upgrade Skill -
