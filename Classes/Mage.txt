@@ -18,7 +18,7 @@ Pact Acolyte
 	Theme: studying summoning magic to make a pact with a demon or a Tom
 		Bombadil-like thing
 	Weapons: Anima Tome, Knife
-	Skill -
+	Skill - Add CHA to knife attack
 	Upgrade Skill -
 	Class Change Options:
 		Demonbound
@@ -39,15 +39,14 @@ Grandmaster
 Demonbound
 	Theme: Made a pact with a demon for some more power
 	Weapons: Anima Tome, Knife, Dark Tome
-	Skill - When fighting and adjacent enemy, enemy AVO -25, enemy
-		crit dodge -30
-	Upgrade Skill -
-	Capstone - Alternate Attack: Consume 50% Current HP and add it to
+	Skill - Alternate Attack: Consume 25% Current HP and add it to
 		damage (multiple hits makes you lose HP multiple times)
+	Upgrade Skill - And gain 1/4 CHA HP on damaging enemy with knives or dark tomes
+	Capstone - 
 Feybound
 	Theme: Made a pact with a Fey, a thing that doesn't really *get* human
 		morality, isn't straight up evil, but is tricksy and capricious.
 	Weapons: Anima Tome, Knife, Light Tome
-	Skill -
-	Upgrade Skill -
+	Skill -  
+	Upgrade Skill - And add 1/2 CHA to light tomes
 	Capstone -
