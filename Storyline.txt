@@ -1,0 +1,64 @@
+Characters:
+	BUG: Swordsman (starts UG seeking knowledge about self -> bUG willing to
+		sacrifice to improve -> BUG regarding followers as an extension of
+		himself and fiercely protective of them because they're his.)
+	BUR: Rogue (starts UB knowledge and power -> BUR with battles bringing out
+		rage/ferocity. More willing to throw her friends under the bus that BUG.
+		BUG would say that's poor resource management.)
+	BW: horse? (Looking for power from within establishment. Fire nation-like
+		motivation. "Our country is awesome. Everyone should be part of it.
+		Participation is mandatory.") probably npc
+	BWR: Soldier (Starts RW freedom fighter against increasing control from BW
+		-> BWR more willing to do worse shit to advance goals)
+	RGW: Warrior
+	WRU: Priest lean cleric
+
+Factions:
+	WUB: Knowledge/goal focused society. Government is always watching you.
+	WBG: Community focused society. Sacrifice few for the many. Other citizens
+		are always watching you.
+
+	BUR:
+	BUG:
+
+WUB and WBG are two countries with a lot of ideological tension. They aren't at
+war, per se, but there's a lot of small scale conflict (raids, spying, and such)
+that goes on between them. There's probably an environmental barrier that makes
+war a hassle, but not impossible.
+
+UG and BU are part of the command group of an elite (experimental?) military
+group in WUB, under BW's command. (~3 other player characters in same group,
+possibly WRU as well) Group is super successful while getting increasingly
+concerned about events at home. BW has to shut the group down for political
+reasons. bUG and BUr try to publicly expose BW, but this ends up failing and
+bUG ends up in gladiator style games and BUr ends up hunted in the undercity,
+falling in with some gangs. Somewhere in here, war between WUB and WBG starts in
+earnest.
+
+bUG and BUr get separated into two parties, with no other PCs. (The previously
+introduced ones come back later.) If we can make 1vX combat interesting somehow,
+each could have a solo chapter or two. BUG adds RW to the party and BUR adds GW.
+
+BUG gets a message from a mysterious stranger offering escape help if BUG beats
+the current champ. BUG and bWR fight their way through the gladiator ring,
+fighting, among others, some of bWR's revolutionary/resistance comrades. They
+beat the champ and get some roundabout (borderline circumstantial) help
+escaping. The escape lands them in WBG territory, with one of the previous
+party members and WRU.
+
+Meanwhile, BUR takes over a rival gang or two and starts trying to increase her
+influence. She decides that WUB is the biggest obstacle/next stepping stone to
+conquer so she forms an alliance with the resistance, and turns it from an just
+an annoyance to WUB to a large, internal threat. Over a few chapters the rest of
+the previous party members and a few gang/resistance members join up with BUR.
+
+BUG moves through WBG, trying to spread freedom, fighting the governors of
+communities that want him to. Lots of Defeat Boss wincons. Recruits at least one
+boss who thinks he's right about WBG being kinda shitty, as well as some people
+from the communities who buy in. (Probably also one who leaves a community
+that's happy under WBG rule)
+
+WUB and WBG both start to realize that BUG and BUR are pretty big problems.
+Until now BUG and BUR were fighting forces left over after other people went off
+to the war, but now they start calling (stronger) forces back to deal with the
+problem.
