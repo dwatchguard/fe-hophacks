@@ -1,8 +1,8 @@
 Characters:
 	BUG: Swordsman (starts UG seeking knowledge about self -> bUG willing to
-		sacrifice to improve and starts seeing WUB and WBG as unnatural -> BUG
-		regarding followers as an extension of himself and fiercely protective
-		of them because they're his.)
+		sacrifice to improve and starts seeing both the WUB and the WBG
+		civilizations as unnatural -> BUG regarding followers as an extension of
+		 himself and fiercely protective of them because they're his.)
 	BUR: Rogue (starts UB knowledge and power -> BUR with battles bringing out
 		rage/ferocity. More willing to throw her friends under the bus that BUG.
 		BUG would say that's poor resource management.)
@@ -10,17 +10,16 @@ Characters:
 		motivation. "Our country is awesome. Everyone should be part of it.
 		Participation is mandatory.") probably npc
 	BWR: Soldier (Starts RW freedom fighter against increasing control from BW
-		-> BWR more willing to do worse shit to advance goals)
-	RGW: Warrior
+		-> BWR and this freedom, for myself and others, is worth any sacrifice.)
+	RGW: Warrior (Starts GW, disturbed by WUB's mistreatment of citizens -> RGW
+		moved to action for the betterment of the many.)
 	WRU: Priest lean cleric
 
 Factions:
-	WUB: Knowledge/goal focused society. Government is always watching you.
-	WBG: Community focused society. Sacrifice few for the many. Other citizens
+	WUB: Knowledge/goal focused society. Willing to shelve morals (at least in
+		private) for advancement. Government is always watching you.
+	WBG: Community focused society. Communism vibe. Other citizens
 		are always watching you.
-
-	BUR:
-	BUG:
 
 WUB and WBG are two countries with a lot of ideological tension. They aren't at
 war, per se, but there's a lot of small scale conflict (raids, spying, and such)
