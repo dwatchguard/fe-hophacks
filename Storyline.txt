@@ -1,7 +1,8 @@
 Characters:
 	BUG: Swordsman (starts UG seeking knowledge about self -> bUG willing to
-		sacrifice to improve -> BUG regarding followers as an extension of
-		himself and fiercely protective of them because they're his.)
+		sacrifice to improve and starts seeing WUB and WBG as unnatural -> BUG
+		regarding followers as an extension of himself and fiercely protective
+		of them because they're his.)
 	BUR: Rogue (starts UB knowledge and power -> BUR with battles bringing out
 		rage/ferocity. More willing to throw her friends under the bus that BUG.
 		BUG would say that's poor resource management.)
