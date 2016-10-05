@@ -1,0 +1,8 @@
+Has:
+	Teams of Characters
+	Terrain Map
+	Character Location Map - belongs to Character?
+
+Responsibilities:
+	Check win conditions
+	Keep track of whose turn it is/change turns

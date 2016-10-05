@@ -1,0 +1,24 @@
+Has:
+	Stats
+		Growths
+		Attributes
+	Levels/Exp
+	Location - belongs to Chapter?
+	Movement/Actions left this turn
+	Items
+		Inventory
+		Equipment
+	Skills
+
+Responsibilities:
+	Attack another character
+		Take Damage
+			Let someone know
+		Defend?
+	Move - belongs to Chapter?
+	Equip/Unequip
+	Use Items - call myItem.use(this)
+	Heal
+	Activate skills
+		Let someone know
+	Know whether any of these options are available.
