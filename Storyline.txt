@@ -1,6 +1,6 @@
 Characters:
 	BUG: Swordsman (starts UG seeking knowledge about self -> bUG willing to
-		sacrifice to improve and starts seeing both the WUB and the WBG
+		sacrifice to improve and starts seeing both the WUB and the GBW
 		civilizations as unnatural -> BUG regarding followers as an extension of
 		 himself and fiercely protective of them because they're his.)
 	BUR: Rogue (starts UB knowledge and power -> BUR with battles bringing out
@@ -13,52 +13,85 @@ Characters:
 		-> BWR and this freedom, for myself and others, is worth any sacrifice.)
 	RGW: Warrior (Starts GW, disturbed by WUB's mistreatment of citizens -> RGW
 		moved to action for the betterment of the many.)
-	WRU: Priest lean cleric
+	GWU: Priest lean cleric
 
 Factions:
 	WUB: Knowledge/goal focused society. Willing to shelve morals (at least in
 		private) for advancement. Government is always watching you.
-	WBG: Community focused society. Communism vibe. Other citizens
+	GBW: Community focused society. Communism vibe. Other citizens
 		are always watching you.
 
-WUB and WBG are two countries with a lot of ideological tension. They aren't at
+WUB and GBW are two countries with a lot of ideological tension. They aren't at
 war, per se, but there's a lot of small scale conflict (raids, spying, and such)
 that goes on between them. There's probably an environmental barrier that makes
 war a hassle, but not impossible.
 
-UG and BU are part of the command group of an elite (experimental?) military
-group in WUB, under BW's command. (~3 other player characters in same group,
-possibly WRU as well) Group is super successful while getting increasingly
-concerned about events at home. BW has to shut the group down for political
-reasons. bUG and BUr try to publicly expose BW, but this ends up failing and
-bUG ends up in gladiator style games and BUr ends up hunted in the undercity,
-falling in with some gangs. Somewhere in here, war between WUB and WBG starts in
-earnest.
+UG and BU are part of the command group of an elite (Experimental magical
+enhancement that gives them a piece of angelic/demonic power; acquiring the material to give the same enhancements to normies
+that join the party later can be a plot point. Maybe it lets them promote beyond
+1st tier) military group in WUB, under BW's command. (~3 other player characters
+in same group, possibly GWU as well) Group is super successful while getting
+increasingly concerned about events at home. BW has to shut the group down for
+political reasons. bUG and BUr try to publicly expose BW, but this ends up
+failing and bUG ends up in gladiator style games and BUr ends up hunted in the
+undercity, falling in with some gangs. Somewhere in here, war between WUB and
+GBW starts in earnest and GBW either steals WUB's elite soldier tech, or
+develops their own.
 
 bUG and BUr get separated into two parties, with no other PCs. (The previously
 introduced ones come back later.) If we can make 1vX combat interesting somehow,
 each could have a solo chapter or two. BUG adds RW to the party and BUR adds GW.
 
-BUG gets a message from a mysterious stranger offering escape help if BUG beats
-the current champ. BUG and bWR fight their way through the gladiator ring,
-fighting, among others, some of bWR's revolutionary/resistance comrades. They
-beat the champ and get some roundabout (borderline circumstantial) help
-escaping. The escape lands them in WBG territory, with one of the previous
-party members and WRU.
+BUG gets a message from his questionably angelic patron offering escape help in
+exchange for an unspecified favor in the future. Part of the escape plan
+involves BUG beating the current champ. BUG and bWR fight their way through the
+gladiator ring, fighting, among others, some of bWR's revolutionary/resistance
+comrades. They beat the champ, which lets BUG take his sliver of demonic power,
+and get some roundabout (borderline circumstantial) help escaping. The escape
+lands them in GBW territory, with one of the previous party members and GWU.
 
 Meanwhile, BUR takes over a rival gang or two and starts trying to increase her
 influence. She decides that WUB is the biggest obstacle/next stepping stone to
 conquer so she forms an alliance with the resistance, and turns it from an just
-an annoyance to WUB to a large, internal threat. Over a few chapters the rest of
+an annoyance to WUB to a large, domestic threat. Over a few chapters the rest of
 the previous party members and a few gang/resistance members join up with BUR.
+BUR's patron, same one who "helped" BUG, starts giving BUR info about
+where to most effectively hit WUB. She doesn't really trust it, wanting to rely
+on only her own power, but the advise proves valuable in a few, crucial
+instances, so she starts to follow it. This advise results in more guerrilla
+warfare chapters with alt wincons (distract for X turns, steal an item?, burn
+supplies, or something similar).
 
-BUG moves through WBG, trying to spread freedom, fighting the governors of
-communities that want him to. Lots of Defeat Boss wincons. Recruits at least one
-boss who thinks he's right about WBG being kinda shitty, as well as some people
-from the communities who buy in. (Probably also one who leaves a community
-that's happy under WBG rule)
+BUG moves through GBW, trying to spread "freedom," fighting the GBW governors of
+communities that want him to. Lots of Defeat Boss wincons with rewards for not
+killing. Recruits at least one boss who thinks he's right about GBW being kinda
+shitty, as well as some people from the communities who buy in. (Probably also
+one who leaves a community that's happy under GBW rule)
 
-WUB and WBG both start to realize that BUG and BUR are pretty big problems.
+WUB and GBW both start to realize that BUG and BUR are pretty big problems.
 Until now BUG and BUR were fighting forces left over after other people went off
 to the war, but now they start calling (stronger) forces back to deal with the
-problem.
+problem. BUR is starting to get worried about BUG's success as well, especially
+because she respects him as a commander way more than she respects WUB and
+GBW's leadership.
+
+WUB sends and elite team like BUG and BUR were on into GBW territory to deal a
+crippling blow to BUG. BUR finds out that this team is gone from the informant
+and takes the opportunity to do a large amount of damage to WUB. BUG repels the
+attack from WUB, but it leaves his party in a bad position. They decide that the
+only way to survive is to go straight for GBW's throat.
+
+As BUG and BUR drive the two countries further and further into a corner, they
+decide they have no choice but to bring out the big guns. WUB and GBW both mass
+enhance their soldiers, unleashing a huge amount of demonic/angelic influence.
+BUG and BUR's patron calls in the favor: Fight for the angels (GWB). From here,
+the player has three choices.
+ 	1. Fight against WUB. GBW's the "good guys," after all.
+	2. Fight against GBW. Angels started this bullshit; they just want control.
+	3. Fight both. Both sides have been trying to manipulate you the whole time.
+1 and 2 should be easier, gameplay wise, than 3. All of them should leave you a
+little uncomfortable with the choice you made. Probably "Yeah, so
+you won. You think that makes you a hero?" kind deal. 1 makes the world a place
+where BUG and BUR don't really fit in anywhere, 2 means they helped the country
+that betrayed them and is probably the worst option for humanity at large, and 3
+doesn't really change anything, just handles the threats.
