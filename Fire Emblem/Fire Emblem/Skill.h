@@ -12,6 +12,6 @@ public:
 	virtual void activate() = 0;
 	virtual bool isValidTarget(Position pos);
 	virtual std::vector<Position> targetPositions() = 0;
-	static void setContext(Skillcontext *context);
+	static void setContext(SkillContext *context);
 
 };

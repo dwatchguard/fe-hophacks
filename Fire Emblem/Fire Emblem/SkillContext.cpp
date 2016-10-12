@@ -16,7 +16,7 @@ SkillContext::SkillContext(Game* thisGame) {
 * @return True if an adjacent position has an enemy, false otherwise.
 */
 bool SkillContext::hasAdjacentEnemy(Unit* unit) {
-	if (getAdjacentEnemys(unit).length > 0) {
+	if (getAdjacentEnemys(unit).size() > 0) {
 		return true;
 	}
 	return false;
@@ -27,7 +27,7 @@ bool SkillContext::hasAdjacentEnemy(Unit* unit) {
 */
 std::vector<Cell> SkillContext::allEmptyCells() {
 	std::vector<Cell> cells;
-	for (int i = 0; i < game->getMap().width(); i++) {
+	for (int i = 0; i < game->getMap()->width(); i++) {
 		for (int j = 0; j < game->getMap()->hieght(); j++) {
 			if (game->getMap()->getCell(i, j)->getUnit() == NULL) {
 				cells.push_back(game->getMap()->getCell(i, j)->getUnit());
@@ -54,7 +54,7 @@ std::vector<Unit*> SkillContext::getAdjacentEnemys(Unit* unit) {
 * @return True if there is an enemy Unit within the range, false otherwise.
 */
 bool SkillContext::hasEnemyWithin(Unit* unit, int range) {
-	if (getEnemysWithin(unit, range).length > 0) {
+	if (getEnemysWithin(unit, range).size() > 0) {
 		return true;
 	}
 	return false;
@@ -69,7 +69,7 @@ bool SkillContext::hasEnemyWithin(Unit* unit, int range) {
 */
 std::vector<Unit*> SkillContext::getEnemysWithin(Unit* unit,int range) {
 	std::vector<Unit*> arr;
-	getUnitsWithin(unit->getPosition(), range, &arr, unit->getplayerID(),"enemy");
+	getUnitsWithin(unit->getPosition(), range, &arr, unit->getplayerID());
 	return arr;
 };
 
@@ -78,8 +78,8 @@ std::vector<Unit*> SkillContext::getEnemysWithin(Unit* unit,int range) {
 * @param {Unit} unit The unit to search around.
 * @return true if there is an allied adjacent Unit, false otherwise.
 */
-SkillContext.prototype.hasAdjacentAlly = function(unit) {
-	if (this.getAdjacentAllies(unit).length > 0) {
+bool SkillContext::hasAdjacentAlly(Unit* unit) {
+	if (getAdjacentAllies(unit).size() > 0) {
 		return true;
 	}
 	return false;
@@ -91,8 +91,8 @@ SkillContext.prototype.hasAdjacentAlly = function(unit) {
 * @return A set of Units whose position is adjacent to the Given Unit.
 * The set may be empty.
 */
-SkillContext.prototype.getAdjacentAllies = function(unit) {
-	return this.getAlliesWithin(unit, 1);
+std::vector<Unit*> SkillContext::getAdjacentAllies(Unit *unit) {
+	return getAlliesWithin(unit, 1);
 };
 
 /**
@@ -101,8 +101,8 @@ SkillContext.prototype.getAdjacentAllies = function(unit) {
 * @param {int} range The range to use around.
 * @return True if there is an ally Unit within the range, false otherwise.
 */
-SkillContext.prototype.hasAllyWithin = function(unit, range) {
-	if (this.getAlliesWithin(unit, range).length > 0) {
+bool SkillContext::hasAllyWithin(Unit* unit, int range) {
+	if (getAlliesWithin(unit, range).size() > 0) {
 		return true;
 	}
 	return false;
@@ -115,10 +115,9 @@ SkillContext.prototype.hasAllyWithin = function(unit, range) {
 * @return A set of Units whose position is within range of the given Unit.
 * The set may be empty.
 */
-SkillContext.prototype.getAlliesWithin = function(unit, range) {
-	var arr = [];
-	this._getUnitsWithin(unit.position, range, arr, unit.playerID,
-		"ally");
+std::vector<Unit*> SkillContext::getAlliesWithin(Unit* unit, int range) {
+	std::vector<Unit*> arr;
+	getUnitsWithin(unit->getPosition(), range, &arr, unit->getPlayerID());
 	return arr;
 };
 
@@ -130,52 +129,20 @@ SkillContext.prototype.getAlliesWithin = function(unit, range) {
 * @return A set of Units whose position is within range of the given position.
 * The set may be empty.
 */
-SkillContext.prototype.getAlliesWithinPos = function(unit, range,
-	otherPosition) {
-	var arr = [];
-	this._getUnitsWithin(otherPosition, range, arr, unit.playerID,
-		"ally");
+std::vector<Unit*> SkillContext::getAlliesWithinPos(int playerID, int range, Position otherPosition) {
+	std::vector<Unit*> arr;
+	getUnitsWithin(otherPosition, range, &arr, playerID);
 	return arr;
 };
 
-/**
-* Gives a Set that holds all enemy Units within the given range behind the enemy Unit.
-* @param {Unit} unit The allied unit.
-* @param {int} range The range behind the enemy unit.
-* @param {Unit} enemyUnit The unit to check behind.
-* @return A set of Units whose position is within range of and behind the given enemy Unit.
-* The set may be empty.
-*/
-SkillContext.prototype.getEnemiesBehind = function(unit, range,
-	enemyUnit) {
-	var arr = [];
-	var xpos = enemyUnit.position.x - unit.position.x;
-	var slope = (enemyUnit.position.y - unit.position.y) / (
-		enemyUnit.position.x - unit.position.x);
-	var enemies = this.getAlliesWithin(enemyUnit, range);
-	for (var i in enemies) {
-		var checkXpos = enemies[i].position.x - enemyUnit.position
-			.x;
-		var checkSlope = (enemies[i].position.y - enemyUnit.position
-			.y) / (enemies[i].position.x - enemyUnit.position
-				.x);
-		if (checkSlope == slope) {
-			if (slope != = 0 || (slope == = 0 && xpos / checkXpos >
-				0)) {
-				arr.push(enemies[i]);
-			}
-		}
-	}
-	return arr;
-};
 
 /**
 * Moves a unit to the given position.
 * @param {Unit} unit The unit to move.
 * @param {Position} position The position to move the unit to.
 */
-SkillContext.prototype.moveUnit = function(unit, position) {
-	this._game.map.moveUnit(unit.position, position);
+void SkillContext::moveUnit(Unit* unit, Position position) {
+	game->getMap()->moveUnit(unit->getPosition(), position);
 };
 
 /**
@@ -184,8 +151,8 @@ SkillContext.prototype.moveUnit = function(unit, position) {
 * @return true if the Position is empty, false otherwise.
 */
 
-SkillContext.prototype.isEmpty = function(position) {
-	return !this._game.map.getGridCell(position).hasUnit();
+bool SkillContext::isEmpty(Position position) {
+	return !game->getMap()->getGridCell(position)->hasUnit();
 };
 
 /**
@@ -194,11 +161,11 @@ SkillContext.prototype.isEmpty = function(position) {
 * @return The unit if there is one, null otherwise.
 */
 
-SkillContext.prototype.getUnit = function(position) {
-	if (this.isEmpty(position)) {
-		return null;
+Unit* SkillContext::getUnit(Position position) {
+	if (isEmpty(position)) {
+		return NULL;
 	}
-	return this._game.map.getUnit(position);
+	return game->getMap()->getUnit(position);
 };
 
 /**
@@ -206,14 +173,14 @@ SkillContext.prototype.getUnit = function(position) {
 * @param {Position} position The position of the unit.
 * @return true if a unit is killed, false otherwise.
 */
-SkillContext.prototype.killUnitAtPosition = function(position) {
-	return this._game.map.removeUnit(position);
+void SkillContext::killUnitAtPosition(Position position) {
+	return game->getMap()->removeUnit(position);
 };
 
 /**
 * Tell the Game that the Game State may have changed and to update everything.
 */
-SkillContext.prototype.updateGame = function() {
+void SkillContext::updateGame() {
 	// todo
 };
 
@@ -226,49 +193,38 @@ SkillContext.prototype.updateGame = function() {
 * @param {int} playerID The playerID of the unit that is being matched up against to determine alignment.
 * @param {String} alignment The alignment of the units to be added to the array.
 */
-SkillContext.prototype._getUnitsWithin = function(position, range,
-	arr, playerID, alignment) {
-	var map = {};
-	for (var i = 0; i <= range; i++) {
-		for (var j = 0; j <= range - i; j++) {
-			var posArr = [new Position(position.x + j, position.y +
-				i),
-				new Position(position.x - j, position.y + i),
-				new Position(position.x + j, position.y - i),
-				new Position(position.x - j, position.y - i)
-			];
-			for (var k = 0; k < posArr.length; k++) {
-				if (this._checkPosition(posArr[k], playerID,
-					alignment)) {
-					map[JSON.stringify(posArr[k])] = this._game.map
-						.getGridCell(posArr[k]).unit;
+void SkillContext::getUnitsWithin(Position position, int range, std::vector<Unit*>* arr, int playerID) {
+	std::map<Position, Unit*> map;
+	std::vector<Unit*> units;
+	for (int i = 1; i <= range; i++) {
+		for (int j = 1; j <= range - i; j++) {
+			Position posArr[4];// = Position[4];
+			posArr[0] = Position(position.getX() + j, position.getY() + i);
+			posArr[1] = Position(position.getX() + j, position.getY() - i);
+			posArr[2] = Position(position.getX() - j, position.getY() + i);
+			posArr[3] = Position(position.getX() - j, position.getY() - i);
+			for (int k = 0; k < 4; k++) {
+				if (checkPosition(posArr[k], playerID)) {
+					map.insert(std::pair<Position, Unit*>(posArr[k], game->getMap()->getGridCell(posArr[k])->getUnit()));
 				}
 			}
 		}
 	}
-	delete map[JSON.stringify(new Position(position.x, position.y))];
-	for (var key in map) {
-		arr.push(map[key]);
+	std::map<Position, Unit*>::iterator it;
+	for (it = map.begin(); it != map.end(); ++it) {
+		arr->push_back(it->second);
 	}
 };
 
-SkillContext.prototype._checkPosition = function(position, playerID,
-	alignment) {
-	var gridCell = this._game.map.getGridCell(position);
-	if (gridCell != = null && gridCell.hasUnit()) {
-		if (alignment == "any") {
-			return true;
-		}
-		else if (alignment == "ally" && gridCell.unit.playerID ==
-			playerID) {
-			return true;
-		}
-		else if (alignment == "enemy" && gridCell.unit.playerID !=
-			playerID) {
+bool SkillContext::checkPosition(Position position, int playerID) {
+	Cell* gridCell = game->getMap()->getGridCell(position);
+	if (gridCell != NULL && gridCell->hasUnit()) {
+		if (gridCell->getUnit()->getPlayerID() == playerID) {
 			return true;
 		}
 		return false;
 	}
+	return false;
 };
 
 /**
@@ -277,10 +233,6 @@ SkillContext.prototype._checkPosition = function(position, playerID,
 * @type unt
 * @readonly
 */
-Object.defineProperty(SkillContext.prototype, 'gameTurnNumber', {
-get: function() {
-	return this._game.turnNumber;
-}
-});
-
-module.exports = SkillContext;
+int SkillContext::getGameTurnNumber() {
+	return game->getTurnNumber();
+};

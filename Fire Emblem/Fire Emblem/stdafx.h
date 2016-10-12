@@ -29,6 +29,8 @@
 #include <sstream>
 #include <cmath>
 #include <queue>
+#include <set>
+#include <map>
 #include "Weapon.h"
 #include "Skill.h" 
 #include "Position.h"
@@ -48,3 +50,11 @@
 #define SPEED 5
 #define CHARISMA 6
 #define CONSTITUTION 7
+
+#define SWORD 0
+#define AXE 1
+#define LANCE 2
+#define BOW 3
+#define KNIFE 4
+#define TOME 5
+#define STAFF 6

@@ -4,6 +4,17 @@
 class SkillContext
 {
 	Game* game;
+	/**
+	* Adds units to the given array based on the range, their distance from the given position, and their alignment.
+	* @private
+	* @param {Position} position The position to check.
+	* @param {int} range The range of movement to check for units.
+	* @param {Array} arr The array to fill with alignment matching units.
+	* @param {int} playerID The playerID of the unit that is being matched up against to determine alignment.
+	* @param {String} alignment The alignment of the units to be added to the array.
+	*/
+	void SkillContext::getUnitsWithin(Position position, int range, std::vector<Unit*>* arr, int playerID);
+	bool checkPosition(Position position, int playerID);
 public:
 	/**
 	* Represents a skill context.
@@ -128,16 +139,6 @@ public:
 		// todo
 	};
 
-	/**
-	* Adds units to the given array based on the range, their distance from the given position, and their alignment.
-	* @private
-	* @param {Position} position The position to check.
-	* @param {int} range The range of movement to check for units.
-	* @param {Array} arr The array to fill with alignment matching units.
-	* @param {int} playerID The playerID of the unit that is being matched up against to determine alignment.
-	* @param {String} alignment The alignment of the units to be added to the array.
-	*/
-	std::vector<Unit*> SkillContext::getUnitsWithin(Position position, int range, int playerID);
 
 	/**
 	* This SkillContexts's gameTurnNumber
