@@ -1,0 +1,80 @@
+#pragma once
+#include "stdafx.h"
+
+class Unit
+{	
+	bool hasWeaponEquipped;
+	Weapon equippedWeapon;
+	bool dead;
+	bool tired;
+	int hp;
+	int maxHP;
+	int movement;
+	std::string name;
+	std::vector<bool> weaponTypes;
+	std::vector<int> growths;
+	std::vector<int> stats;
+	std::vector<int> bonusStats;
+	std::vector<float> statMultipliers;
+	std::vector<Skill*> skills;
+	std::vector<Item*> items;
+	std::vector<State*> states;
+	Position lastPosition;
+	Position currentPosition;
+	static SkillContext* skillContext;
+	static SkillContext* getSkillContext();
+	static MoveHelper moveHelper;
+	static MoveHelper setMoveHelper(MoveHelper*);
+	static SkillContext* setSkillCOntext(SkillContext*);
+	bool flying;
+	std::string className;
+	int playerID;
+	void die();
+public:
+	virtual std::string getClassName() = 0;
+	int getPlayerID();
+	void move(Position position);
+	void refresh();
+	void addState(State * state);
+	void addSkill(Skill *skill);
+	void removeSkill(Skill* skill);
+	void removeState(State* state);
+	Weapon getEquippedWeapon();
+	Damage* getAttackDamage();
+	void engage(Unit* enemyUnit);
+	void attackUnit(Unit* enemyUnit);
+	void takeDamage(Damage* damage);
+	void heal(int amount);
+	int getAccuracy();
+	int getAvoid();
+	bool canWield(Item *item);
+	void equip(int index);
+	void useItem(int index);
+	Position getPosition();
+	void setPosition(Position pos);
+	Position getLastPosition();
+	void setLastPosition(Position pos);
+	std::string getName();
+	int getHP();
+	int getMaxHP();
+	int getAttack();
+	int getDefense();
+	int getResistance();
+	int getMagic();
+	int getSpeed();
+	int getSkill();
+	int getCharisma();
+	int getConstitution();
+	int getMovement();
+	int getplayerID();
+	std::vector<Skill*> getSkills();
+	std::vector<State*> getStates();
+	std::vector<Item*> getItems();
+	std::vector<int> getStats();
+	bool canFly();
+	std::vector<int> getRanges();
+	std::vector<int> getEquipedRanges();
+	static void setMoveHelper(MoveHelper*);
+	static void setSkillContext(SkillContext*);
+};
+
