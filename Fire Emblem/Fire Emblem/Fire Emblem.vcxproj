@@ -153,6 +153,7 @@
     <ClInclude Include="Fire Emblem.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Item.h" />
+    <ClInclude Include="OfflineGame.h" />
     <ClInclude Include="Position.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Skill.h" />
@@ -169,6 +170,7 @@
     <ClCompile Include="Fire Emblem.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Item.cpp" />
+    <ClCompile Include="OfflineGame.cpp" />
     <ClCompile Include="Position.cpp" />
     <ClCompile Include="Skill.cpp" />
     <ClCompile Include="SkillContext.cpp" />
