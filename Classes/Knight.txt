@@ -6,6 +6,35 @@ Knight
 		Great Knight
 		General
 
+Knight promote 1
+    Skill - 12.5% dmg redux when adj to ally
+    Upgrade - 
+
+Knight promote 1.1
+    Skill - healing aura for allies
+    Upgrade - additional 12.5% redux when flanked
+    Capstone - dmg aura and self heal when flanked
+
+Knight promote 1.2
+    Skill - lightning rod 50% damage from for ranged atks
+    Upgrade - additional 12.5% redux vs projectiles
+    Capstone - Enemies dealing damage to ~ take 10% HP dmg
+
+Knight promote 2
+    Skill - 
+    Upgrade - 
+
+Knight promote 2.1
+    Skill - 
+    Upgrade - 
+    Capstone - 
+
+Knight promote 2.2
+    Skill - 
+    Upgrade - 
+    Capstone - 
+
+
 Great Knight
 	Theme: armored horse guy
     Weapons: Two of Sword, Axe, Lance
